@@ -1,0 +1,31 @@
+{
+  "name": "node-statics-proxy",
+  "version": "1.0.0",
+  "description": "Simple node proxy with statics",
+  "main": ".#server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arturasz/node-statics-proxy.git"
+  },
+  "keywords": [
+    "node",
+    "statics",
+    "proxy"
+  ],
+  "author": "Arturas Zakrevskis",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arturasz/node-statics-proxy/issues"
+  },
+  "homepage": "https://github.com/arturasz/node-statics-proxy#readme",
+  "dependencies": {
+    "http": "0.0.0",
+    "http-proxy": "^1.16.2",
+    "node-static": "^0.7.10",
+    "url": "^0.11.0"
+  }
+}
